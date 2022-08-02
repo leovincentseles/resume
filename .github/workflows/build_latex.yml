@@ -29,4 +29,4 @@ jobs:
           files: |
             *.pdf
           tag_name: "latest"
-          prerelease: true
+          prerelease: false
