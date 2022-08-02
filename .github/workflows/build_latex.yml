@@ -15,8 +15,9 @@ jobs:
           root_file: "*.tex"
           glob_root_file: true
       - name: Collect output pdf
-        run: mkdir -p publish
-        run: mv *.pdf ./publish/
+        run: |
+          mkdir -p publish
+          mv *.pdf ./publish/
       - name: Publish pdf
         uses: peaceiris/actions-gh-pages@v3
         with:
