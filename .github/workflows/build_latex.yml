@@ -25,3 +25,4 @@ jobs:
           publish_dir: ./publish
           publish_branch: publish
           force_orphan: true
+          disable_nojekyll: true
