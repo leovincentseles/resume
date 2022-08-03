@@ -29,5 +29,5 @@ jobs:
       - name: Purge jsDelivr cache
         uses: gacts/purge-jsdelivr-cache@v1
           with:
-          url: |
-            https://cdn.jsdelivr.net/gh/leovincentseles/resume@publish/Yin-Chiuan_CV.pdf            
+            url: |
+              https://cdn.jsdelivr.net/gh/leovincentseles/resume@publish/Yin-Chiuan_CV.pdf            
