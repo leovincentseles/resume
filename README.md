@@ -1,2 +1,5 @@
 ## Output PDF link
-- [Yin-Chiuan_CV.pdf](https://gitcdn.link/cdn/leovincentseles/resume/publish/Yin-Chiuan_CV.pdf)
+- [Yin-Chiuan_CV.pdf](https://cdn.jsdelivr.net/gh/leovincentseles/resume@publish/Yin-Chiuan_CV.pdf)
+
+## Compile the project
+- `latexmk`
